@@ -167,7 +167,7 @@ export const SettingsModal: React.FC<{
 
               <div style={{ marginTop: 32 }}>
                 <a
-                  href="https://github.com/zaidmukaddam/five-letters"
+                  href="https://github.com/zaidmukaddam/fivemaster"
                   style={{
                     color: colors.black,
                     display: "flex",
