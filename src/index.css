@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,200,300,regular,500,600,700);
+
+html, body {
+  background: #006e64;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, "IBM Plex Serif", 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 22px;
+  line-height: 1.33;
+  color: #14e6db;
+}
+
+@media screen and (max-height: 599px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.key {
+  transition: opacity 0.1s ease-out, transform 0.1s ease-out;
+}
+
+.key.active {
+  opacity: 0.75;
+  transform: scale(0.8);
+}
+
+.animate-all {
+  transition: all 0.5s ease-in-out;
+}
+
+.animate-all-fast {
+  transition: all 0.15s ease-in-out;
+}
+
+.animate-all-slow {
+  transition: all 5s ease-in-out;
+}
+
+.blur-bg {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+::-webkit-scrollbar-thumb{
+  color: #14e6db;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #14e6db;
+}
