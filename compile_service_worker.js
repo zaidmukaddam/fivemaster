@@ -7,6 +7,7 @@ const filenames = [
   "/three",
   "/four",
   "/six",
+  "/getpremium",
 ];
 
 function findFilenames(path) {
